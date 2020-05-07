@@ -5,6 +5,14 @@ private int id;
 private String name;
 private String city;
 private String birthday;
+private String classId;
+
+public String getClassId() {
+	return classId;
+}
+public void setClassId(String classId) {
+	this.classId = classId;
+}
 public int getId() {
 	return id;
 }
