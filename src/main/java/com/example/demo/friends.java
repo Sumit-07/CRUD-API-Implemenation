@@ -1,42 +1,16 @@
 package com.example.demo;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class friends {
 
-private int id;
-private String name;
-private String city;
-private String birthday;
-private String classId;
+	private int id;
+	private String name;
+	private String city;
+	private String birthday;
+	private String classId;
 
-public String getClassId() {
-	return classId;
-}
-public void setClassId(String classId) {
-	this.classId = classId;
-}
-public int getId() {
-	return id;
-}
-public void setId(int id) {
-	this.id = id;
-}
-public String getName() {
-	return name;
-}
-public void setName(String name) {
-	this.name = name;
-}
-public String getCity() {
-	return city;
-}
-public void setCity(String city) {
-	this.city = city;
-}
-public String getBirthday() {
-	return birthday;
-}
-public void setBirthday(String birthday) {
-	this.birthday = birthday;
-}
- 
- 
 }
